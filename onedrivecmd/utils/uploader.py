@@ -3,7 +3,9 @@
 # Author:  Beining --<i@cnbeining.com>
 # Purpose: File uploader for onedrivecmd
 # Created: 09/24/2016
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import json
 from progress.bar import Bar
 import requests
